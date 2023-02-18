@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "YT ad auto-skip",
+    "version": "0.1",
+    "description": "YT ad auto-skip",
+    "author": "Ankit Patel",
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "permissions": [
+      "*://*.youtube.com/*"
+    ]
+  }
