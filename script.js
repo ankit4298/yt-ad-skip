@@ -4,9 +4,10 @@ console.log(
 );
 
 setInterval(() => {
-	const obj = document.getElementsByClassName("ytp-ad-skip-button");
+	const obj = document.getElementsByClassName("ytp-ad-text");
 	if (obj.length > 0) {
-		obj[0].click();
+		document.getElementsByClassName('html5-main-video')[0].currentTime = document.getElementsByClassName('html5-main-video')[0].duration;
+		document.getElementsByClassName("ytp-ad-skip-button")[0].click();
 		console.log(
 			"%cAd Skipped ⏩",
 			"color:red;font-family:system-ui;font-size:20px;-webkit-text-stroke: 0.5px black;font-weight:bold"
