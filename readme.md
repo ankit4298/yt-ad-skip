@@ -1,7 +1,7 @@
 
 # YT ad skip ###
 
-### Automatically skip YouTube skippable ads
+### Automatically skip YouTube ~~skippable~~ ads
 
 ## Installation
 
